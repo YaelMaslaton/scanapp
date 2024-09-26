@@ -73,7 +73,7 @@ Make sure you have the following installed:
    ./gradlew build
 3. **Set up Docker Ensure Docker is running, then start the application using Docker Compose:**
    ```bash
-    docker-compose up
+   docker-compose up --build
 4. **Access Swagger UI After starting the application, you can view the API endpoints using Swagger UI at:**
    http://localhost:8080/swagger-ui.html
 
