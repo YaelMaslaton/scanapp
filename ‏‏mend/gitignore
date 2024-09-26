@@ -1,0 +1,10 @@
+# Ignore build directory
+/build/
+
+# Ignore gradle files
+/.gradle/
+*.gradle
+
+# Ignore IDE files
+*.idea/
+*.iml

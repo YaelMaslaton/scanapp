@@ -1,0 +1,453 @@
+2024-09-26 02:06:36 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.mend.scanapp.scanappApplicationTests]: scanappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-26 02:06:36 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.mend.scanapp.ScanAppApplication for test class com.mend.scanapp.scanappApplicationTests
+2024-09-26 02:06:37 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-26 02:06:37 INFO  c.m.scanapp.scanappApplicationTests - Starting scanappApplicationTests using Java 17.0.11 with PID 20860 (started by User in C:\Users\User\IdeaProjects\mend)
+2024-09-26 02:06:37 INFO  c.m.scanapp.scanappApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-09-26 02:06:39 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26 02:06:39 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 186 ms. Found 6 JPA repository interfaces.
+2024-09-26 02:06:41 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26 02:06:42 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26 02:06:42 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-26 02:06:43 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26 02:06:43 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-26 02:06:43 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1eb9d69a
+2024-09-26 02:06:43 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-26 02:06:43 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-26 02:06:46 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26 02:06:46 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 02:06:48 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-26 02:06:52 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26 02:06:56 INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2024-09-26 02:06:56 INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#539a50ea:0/SimpleConnection@39b8313d [delegate=amqp://guest@127.0.0.1:5672/, localPort=53239]
+2024-09-26 02:06:57 INFO  c.m.scanapp.scanappApplicationTests - Started scanappApplicationTests in 20.075 seconds (process running for 23.528)
+2024-09-26 02:06:58 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-09-26 02:06:59 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-09-26 02:06:59 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 02:06:59 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-26 02:06:59 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-26 02:08:21 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-26 02:08:21 INFO  com.mend.scanapp.ScanAppApplication - Starting ScanAppApplication using Java 17.0.11 with PID 15948 (C:\Users\User\IdeaProjects\mend\build\classes\java\main started by User in C:\Users\User\IdeaProjects\mend)
+2024-09-26 02:08:21 INFO  com.mend.scanapp.ScanAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-26 02:08:21 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file 'C:\Users\User\IdeaProjects\mend\docker-compose.yml'
+2024-09-26 02:08:24 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-09-26 02:08:26 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26 02:08:26 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 129 ms. Found 6 JPA repository interfaces.
+2024-09-26 02:08:28 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2024-09-26 02:08:28 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-26 02:08:28 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-26 02:08:28 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-26 02:08:28 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-26 02:08:28 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3892 ms
+2024-09-26 02:08:29 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26 02:08:29 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26 02:08:29 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-26 02:08:30 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26 02:08:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-26 02:08:30 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@71734463
+2024-09-26 02:08:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-26 02:08:30 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-26 02:08:33 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26 02:08:33 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 02:08:34 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-26 02:08:40 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26 02:08:43 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-26 02:08:43 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2024-09-26 02:08:43 INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2024-09-26 02:08:44 INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#5d8b5cf6:0/SimpleConnection@5eab3eac [delegate=amqp://guest@127.0.0.1:5672/, localPort=53348]
+2024-09-26 02:08:44 INFO  com.mend.scanapp.ScanAppApplication - Started ScanAppApplication in 23.874 seconds (process running for 26.165)
+2024-09-26 02:09:29 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-09-26 02:09:30 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-09-26 02:09:30 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 02:09:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-26 02:09:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-26 02:09:35 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-26 02:09:36 INFO  com.mend.scanapp.ScanAppApplication - Starting ScanAppApplication using Java 17.0.11 with PID 20252 (C:\Users\User\IdeaProjects\mend\build\classes\java\main started by User in C:\Users\User\IdeaProjects\mend)
+2024-09-26 02:09:36 INFO  com.mend.scanapp.ScanAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-26 02:09:36 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file 'C:\Users\User\IdeaProjects\mend\docker-compose.yml'
+2024-09-26 02:09:39 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-09-26 02:09:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26 02:09:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 223 ms. Found 6 JPA repository interfaces.
+2024-09-26 02:09:43 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2024-09-26 02:09:43 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-26 02:09:43 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-26 02:09:43 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-26 02:09:44 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-26 02:09:44 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4242 ms
+2024-09-26 02:09:44 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26 02:09:44 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26 02:09:44 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-26 02:09:45 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26 02:09:45 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-26 02:09:45 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b5b9521
+2024-09-26 02:09:45 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-26 02:09:45 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-26 02:09:48 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26 02:09:48 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 02:09:50 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-26 02:09:56 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26 02:10:00 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-26 02:10:01 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2024-09-26 02:10:01 INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2024-09-26 02:10:01 INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#75630d9e:0/SimpleConnection@74055597 [delegate=amqp://guest@127.0.0.1:5672/, localPort=53436]
+2024-09-26 02:10:02 INFO  com.mend.scanapp.ScanAppApplication - Started ScanAppApplication in 26.839 seconds (process running for 28.863)
+2024-09-26 02:10:18 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-26 02:10:18 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-26 02:10:18 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-09-26 02:10:24 INFO  c.mend.scanapp.aspect.LoggingAspect - Incoming request: com.mend.scanapp.controller.ScanController.initiateScan() with arguments = [ScanDTO(type=SCA, commit=Commit(commitId=4, branch=null, commitMessage=null, commitDate=null), issues=5, valid=true, appUser=AppUser{userId=1, username='null', email='null'})]
+2024-09-26 02:10:30 ERROR c.mend.scanapp.aspect.LoggingAspect - Exception in com.mend.scanapp.controller.ScanController.initiateScan() with cause = NULL
+2024-09-26 02:18:22 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.mend.scanapp.scanappApplicationTests]: scanappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-26 02:18:23 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.mend.scanapp.ScanAppApplication for test class com.mend.scanapp.scanappApplicationTests
+2024-09-26 02:18:26 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-26 02:18:27 INFO  c.m.scanapp.scanappApplicationTests - Starting scanappApplicationTests using Java 17.0.11 with PID 14692 (started by User in C:\Users\User\IdeaProjects\mend)
+2024-09-26 02:18:27 INFO  c.m.scanapp.scanappApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-09-26 02:18:34 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26 02:18:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 777 ms. Found 6 JPA repository interfaces.
+2024-09-26 02:18:42 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26 02:18:43 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26 02:18:43 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-26 02:18:46 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26 02:18:47 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-26 02:18:48 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1926f962
+2024-09-26 02:18:48 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-26 02:18:48 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-26 02:18:59 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26 02:19:00 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 02:19:05 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-26 02:19:19 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26 02:19:23 INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2024-09-26 02:19:23 INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#5634f627:0/SimpleConnection@e2cf713 [delegate=amqp://guest@127.0.0.1:5672/, localPort=54009]
+2024-09-26 02:19:24 INFO  c.m.scanapp.scanappApplicationTests - Started scanappApplicationTests in 59.404 seconds (process running for 73.062)
+2024-09-26 02:19:46 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-09-26 02:19:46 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-09-26 02:19:46 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 02:19:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-26 02:19:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-26 02:22:16 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.mend.scanapp.scanappApplicationTests]: scanappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-26 02:22:17 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.mend.scanapp.ScanAppApplication for test class com.mend.scanapp.scanappApplicationTests
+2024-09-26 02:22:20 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-26 02:22:20 INFO  c.m.scanapp.scanappApplicationTests - Starting scanappApplicationTests using Java 17.0.11 with PID 14916 (started by User in C:\Users\User\IdeaProjects\mend)
+2024-09-26 02:22:20 INFO  c.m.scanapp.scanappApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-09-26 02:22:28 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26 02:22:28 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 680 ms. Found 6 JPA repository interfaces.
+2024-09-26 02:22:36 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26 02:22:36 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26 02:22:37 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-26 02:22:38 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26 02:22:39 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-26 02:22:40 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3321fb65
+2024-09-26 02:22:40 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-26 02:22:40 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-26 02:22:50 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26 02:22:51 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 02:22:56 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-26 02:23:10 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26 02:23:20 INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2024-09-26 02:23:21 INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#4f944ff5:0/SimpleConnection@1c87ac1 [delegate=amqp://guest@127.0.0.1:5672/, localPort=54151]
+2024-09-26 02:23:21 INFO  c.m.scanapp.scanappApplicationTests - Started scanappApplicationTests in 62.956 seconds (process running for 89.571)
+2024-09-26 02:23:22 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-09-26 02:23:22 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-09-26 02:23:22 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 02:23:22 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-26 02:23:22 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-26 02:49:38 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-09-26 02:49:39 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-09-26 02:49:41 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 02:49:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-26 02:49:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-26 03:06:32 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.mend.scanapp.scanappApplicationTests]: scanappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-26 03:06:33 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.mend.scanapp.ScanAppApplication for test class com.mend.scanapp.scanappApplicationTests
+2024-09-26 03:06:37 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-26 03:06:38 INFO  c.m.scanapp.scanappApplicationTests - Starting scanappApplicationTests using Java 17.0.11 with PID 9988 (started by User in C:\Users\User\IdeaProjects\mend)
+2024-09-26 03:06:38 INFO  c.m.scanapp.scanappApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-09-26 03:06:45 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26 03:06:46 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 746 ms. Found 6 JPA repository interfaces.
+2024-09-26 03:06:54 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26 03:06:54 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26 03:06:55 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-26 03:06:58 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26 03:06:59 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-26 03:07:00 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1926f962
+2024-09-26 03:07:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-26 03:07:00 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-26 03:07:12 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26 03:07:13 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 03:07:18 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-26 03:07:32 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26 03:07:42 INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2024-09-26 03:07:43 INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#5e8ec0d9:0/SimpleConnection@4ff4478 [delegate=amqp://guest@127.0.0.1:5672/, localPort=59789]
+2024-09-26 03:07:43 INFO  c.m.scanapp.scanappApplicationTests - Started scanappApplicationTests in 67.816 seconds (process running for 82.55)
+2024-09-26 03:08:13 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-09-26 03:08:13 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-09-26 03:08:13 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 03:08:13 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-26 03:08:13 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-26 03:14:01 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.mend.scanapp.scanappApplicationTests]: scanappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-26 03:14:02 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.mend.scanapp.ScanAppApplication for test class com.mend.scanapp.scanappApplicationTests
+2024-09-26 03:14:06 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-26 03:14:06 INFO  c.m.scanapp.scanappApplicationTests - Starting scanappApplicationTests using Java 17.0.11 with PID 14352 (started by User in C:\Users\User\IdeaProjects\mend)
+2024-09-26 03:14:06 INFO  c.m.scanapp.scanappApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-09-26 03:14:13 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26 03:14:14 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 715 ms. Found 6 JPA repository interfaces.
+2024-09-26 03:14:21 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26 03:14:21 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26 03:14:22 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-26 03:14:25 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26 03:14:25 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-26 03:14:26 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3f80d8c
+2024-09-26 03:14:26 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-26 03:14:27 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-26 03:14:37 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26 03:14:38 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 03:14:43 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-26 03:14:58 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26 03:15:08 INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2024-09-26 03:15:09 INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#43e587cd:0/SimpleConnection@1cbb101b [delegate=amqp://guest@127.0.0.1:5672/, localPort=61292]
+2024-09-26 03:15:09 INFO  c.m.scanapp.scanappApplicationTests - Started scanappApplicationTests in 65.223 seconds (process running for 78.972)
+2024-09-26 03:15:18 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-09-26 03:15:19 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-09-26 03:15:19 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 03:15:19 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-26 03:15:19 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-26 03:18:15 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-26 03:18:15 INFO  com.mend.scanapp.ScanAppApplication - Starting ScanAppApplication using Java 17.0.11 with PID 10512 (C:\Users\User\IdeaProjects\mend\build\classes\java\main started by User in C:\Users\User\IdeaProjects\mend)
+2024-09-26 03:18:15 INFO  com.mend.scanapp.ScanAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-26 03:18:16 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file 'C:\Users\User\IdeaProjects\mend\docker-compose.yml'
+2024-09-26 03:18:24 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-09-26 03:18:32 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26 03:18:33 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 940 ms. Found 6 JPA repository interfaces.
+2024-09-26 03:18:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2024-09-26 03:18:41 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-26 03:18:41 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-26 03:18:41 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-26 03:18:42 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-26 03:18:42 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 16965 ms
+2024-09-26 03:18:44 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26 03:18:45 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26 03:18:46 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-26 03:18:49 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26 03:18:49 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-26 03:18:49 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4a944af9
+2024-09-26 03:18:49 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-26 03:18:49 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-26 03:19:00 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26 03:19:01 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 03:19:05 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-26 03:19:17 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26 03:19:27 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-26 03:19:28 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2024-09-26 03:19:28 INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2024-09-26 03:19:28 INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#69503026:0/SimpleConnection@4fdc1a37 [delegate=amqp://guest@127.0.0.1:5672/, localPort=61421]
+2024-09-26 03:19:29 INFO  com.mend.scanapp.ScanAppApplication - Started ScanAppApplication in 77.462 seconds (process running for 89.927)
+2024-09-26 03:19:40 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-09-26 03:19:40 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-09-26 03:23:16 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-26 03:23:16 INFO  com.mend.scanapp.ScanAppApplication - Starting ScanAppApplication using Java 17.0.11 with PID 18404 (C:\Users\User\IdeaProjects\mend\build\classes\java\main started by User in C:\Users\User\IdeaProjects\mend)
+2024-09-26 03:23:16 INFO  com.mend.scanapp.ScanAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-26 03:23:17 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file 'C:\Users\User\IdeaProjects\mend\docker-compose.yml'
+2024-09-26 03:24:56 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-09-26 03:25:09 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26 03:25:11 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1006 ms. Found 6 JPA repository interfaces.
+2024-09-26 03:25:28 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2024-09-26 03:25:28 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-26 03:25:28 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-26 03:25:28 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-26 03:25:29 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-26 03:25:30 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 33136 ms
+2024-09-26 03:25:37 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26 03:25:38 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26 03:25:39 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-26 03:25:47 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26 03:25:48 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-26 03:25:49 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a2035e1
+2024-09-26 03:25:49 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-26 03:25:49 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-26 03:26:29 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26 03:26:31 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 03:26:40 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-26 03:27:13 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26 03:27:36 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-26 03:27:36 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2024-09-26 03:27:36 INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2024-09-26 03:27:37 INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#5afef53:0/SimpleConnection@10ea1754 [delegate=amqp://guest@127.0.0.1:5672/, localPort=61818]
+2024-09-26 03:27:37 INFO  com.mend.scanapp.ScanAppApplication - Started ScanAppApplication in 261.268 seconds (process running for 263.055)
+2024-09-26 03:40:18 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-26 03:40:18 INFO  com.mend.scanapp.ScanAppApplication - Starting ScanAppApplication using Java 17.0.11 with PID 3156 (C:\Users\User\IdeaProjects\mend\build\classes\java\main started by User in C:\Users\User\IdeaProjects\mend)
+2024-09-26 03:40:18 INFO  com.mend.scanapp.ScanAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-26 03:40:19 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file 'C:\Users\User\IdeaProjects\mend\docker-compose.yml'
+2024-09-26 03:40:29 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-09-26 03:40:39 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26 03:40:39 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 781 ms. Found 6 JPA repository interfaces.
+2024-09-26 03:40:49 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2024-09-26 03:40:49 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-26 03:40:49 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-26 03:40:49 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-26 03:40:50 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-26 03:40:50 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 19966 ms
+2024-09-26 03:40:52 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26 03:40:53 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26 03:40:54 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-26 03:40:58 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26 03:40:59 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-26 03:41:00 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@e7e455d
+2024-09-26 03:41:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-26 03:41:00 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-26 03:41:14 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26 03:41:16 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 03:41:21 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-26 03:41:34 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26 03:41:46 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2024-09-26 03:41:46 INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2024-09-26 03:41:47 INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#2954be42:0/SimpleConnection@4ca87dbe [delegate=amqp://guest@127.0.0.1:5672/, localPort=62253]
+2024-09-26 03:41:48 INFO  com.mend.scanapp.ScanAppApplication - Started ScanAppApplication in 94.166 seconds (process running for 103.193)
+2024-09-26 03:41:48 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-09-26 03:41:48 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-09-26 03:41:51 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 03:41:51 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-26 03:41:51 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-26 03:43:53 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-26 03:43:53 INFO  com.mend.scanapp.ScanAppApplication - Starting ScanAppApplication using Java 17.0.11 with PID 18916 (C:\Users\User\IdeaProjects\mend\build\classes\java\main started by User in C:\Users\User\IdeaProjects\mend)
+2024-09-26 03:43:53 INFO  com.mend.scanapp.ScanAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-26 03:43:53 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file 'C:\Users\User\IdeaProjects\mend\docker-compose.yml'
+2024-09-26 03:43:55 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-09-26 03:43:57 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26 03:43:57 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 6 JPA repository interfaces.
+2024-09-26 03:43:58 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2024-09-26 03:43:58 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-26 03:43:58 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-26 03:43:58 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-26 03:43:58 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-26 03:43:58 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1682 ms
+2024-09-26 03:43:58 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26 03:43:58 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26 03:43:58 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-26 03:43:58 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26 03:43:58 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-26 03:43:58 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@27ec0d06
+2024-09-26 03:43:58 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-26 03:43:58 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-26 03:44:00 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26 03:44:00 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 03:44:00 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-26 03:44:01 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26 03:44:02 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-26 03:44:02 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2024-09-26 03:44:02 INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2024-09-26 03:44:02 INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#1ea44b7:0/SimpleConnection@3033bb96 [delegate=amqp://guest@127.0.0.1:5672/, localPort=62407]
+2024-09-26 03:44:02 INFO  com.mend.scanapp.ScanAppApplication - Started ScanAppApplication in 9.468 seconds (process running for 11.495)
+2024-09-26 03:44:55 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-26 03:44:55 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-26 03:44:55 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-09-26 03:45:02 INFO  c.mend.scanapp.aspect.LoggingAspect - Incoming request: com.mend.scanapp.controller.ScanController.initiateScan() with arguments = [ScanDTO(type=SCA, commit=Commit(commitId=4, branch=null, commitMessage=null, commitDate=null), issues=5, valid=true, appUser=AppUser{userId=1, username='null', email='null'})]
+2024-09-26 03:45:02 ERROR c.mend.scanapp.aspect.LoggingAspect - Exception in com.mend.scanapp.controller.ScanController.initiateScan() with cause = NULL
+2024-09-26 03:51:04 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-09-26 03:51:05 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-09-26 03:51:05 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 03:51:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-26 03:51:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-26 03:52:46 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-26 03:52:46 INFO  com.mend.scanapp.ScanAppApplication - Starting ScanAppApplication using Java 17.0.11 with PID 20652 (C:\Users\User\IdeaProjects\mend\build\classes\java\main started by User in C:\Users\User\IdeaProjects\mend)
+2024-09-26 03:52:46 INFO  com.mend.scanapp.ScanAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-26 03:52:46 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file 'C:\Users\User\IdeaProjects\mend\docker-compose.yml'
+2024-09-26 03:52:47 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-09-26 03:52:49 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26 03:52:49 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 6 JPA repository interfaces.
+2024-09-26 03:52:50 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2024-09-26 03:52:50 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-26 03:52:50 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-26 03:52:50 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-26 03:52:50 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-26 03:52:50 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1600 ms
+2024-09-26 03:52:50 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26 03:52:50 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26 03:52:50 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-26 03:52:50 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26 03:52:50 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-26 03:52:50 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4c8abec7
+2024-09-26 03:52:50 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-26 03:52:51 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-26 03:52:52 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26 03:52:52 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 03:52:52 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-26 03:52:53 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26 03:52:54 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-26 03:52:54 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2024-09-26 03:52:54 INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2024-09-26 03:52:54 INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#660dcd17:0/SimpleConnection@69231217 [delegate=amqp://guest@127.0.0.1:5672/, localPort=62989]
+2024-09-26 03:52:54 INFO  com.mend.scanapp.ScanAppApplication - Started ScanAppApplication in 8.836 seconds (process running for 10.145)
+2024-09-26 03:53:05 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-26 03:53:05 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-26 03:53:05 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-09-26 03:53:05 INFO  c.mend.scanapp.aspect.LoggingAspect - Incoming request: com.mend.scanapp.controller.ScanController.initiateScan() with arguments = [ScanDTO(type=SCA, commit=Commit(commitId=4, branch=null, commitMessage=null, commitDate=null), issues=5, valid=true, appUser=AppUser{userId=1, username='null', email='null'})]
+2024-09-26 03:53:06 ERROR c.mend.scanapp.aspect.LoggingAspect - Exception in com.mend.scanapp.controller.ScanController.initiateScan() with cause = NULL
+2024-09-26 03:53:20 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 375 ms
+2024-09-26 03:57:01 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.mend.scanapp.scanappApplicationTests]: scanappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-26 03:57:01 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.mend.scanapp.ScanAppApplication for test class com.mend.scanapp.scanappApplicationTests
+2024-09-26 03:57:02 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-26 03:57:02 INFO  c.m.scanapp.scanappApplicationTests - Starting scanappApplicationTests using Java 17.0.11 with PID 4636 (started by User in C:\Users\User\IdeaProjects\mend)
+2024-09-26 03:57:02 INFO  c.m.scanapp.scanappApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-09-26 03:57:03 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26 03:57:03 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 89 ms. Found 6 JPA repository interfaces.
+2024-09-26 03:57:04 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26 03:57:04 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26 03:57:04 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-26 03:57:05 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26 03:57:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-26 03:57:05 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@687e561b
+2024-09-26 03:57:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-26 03:57:05 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-26 03:57:06 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26 03:57:06 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 03:57:07 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-26 03:57:09 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26 03:57:10 INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+2024-09-26 03:57:10 INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#4fc50fee:0/SimpleConnection@6c945ef9 [delegate=amqp://guest@127.0.0.1:5672/, localPort=63187]
+2024-09-26 03:57:10 INFO  c.m.scanapp.scanappApplicationTests - Started scanappApplicationTests in 8.89 seconds (process running for 10.457)
+2024-09-26 03:57:12 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-09-26 03:57:12 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-09-26 03:57:12 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 03:57:12 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-26 03:57:12 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-26 03:58:04 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-09-26 03:58:04 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-09-26 03:58:04 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 03:58:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-26 03:58:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-26 03:58:12 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-26 03:58:12 INFO  com.mend.scanapp.ScanAppApplication - Starting ScanAppApplication using Java 17.0.11 with PID 7784 (C:\Users\User\IdeaProjects\mend\build\classes\java\main started by User in C:\Users\User\IdeaProjects\mend)
+2024-09-26 03:58:12 INFO  com.mend.scanapp.ScanAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-26 03:58:13 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file 'C:\Users\User\IdeaProjects\mend\docker-compose.yml'
+2024-09-26 03:58:14 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-09-26 03:58:15 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-26 03:58:15 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 6 JPA repository interfaces.
+2024-09-26 03:58:16 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2024-09-26 03:58:16 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-09-26 03:58:16 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-26 03:58:16 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-26 03:58:16 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-26 03:58:16 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1413 ms
+2024-09-26 03:58:16 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-26 03:58:16 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-26 03:58:16 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-26 03:58:17 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-26 03:58:17 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-26 03:58:17 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f36f34d
+2024-09-26 03:58:17 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-26 03:58:17 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-26 03:58:18 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-26 03:58:18 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 03:58:18 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-26 03:58:19 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-26 03:58:20 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-09-26 03:58:20 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2024-09-26 03:58:20 INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2024-09-26 03:58:20 INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#ae449e7:0/SimpleConnection@38eaac79 [delegate=amqp://guest@127.0.0.1:5672/, localPort=63250]
+2024-09-26 03:58:20 INFO  com.mend.scanapp.ScanAppApplication - Started ScanAppApplication in 8.149 seconds (process running for 9.098)
+2024-09-26 03:59:17 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-26 03:59:17 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-26 03:59:17 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-09-26 03:59:17 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 192 ms
+2024-09-26 04:00:03 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2024-09-26 04:00:03 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2024-09-26 04:00:03 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-26 04:00:03 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-26 04:00:03 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
