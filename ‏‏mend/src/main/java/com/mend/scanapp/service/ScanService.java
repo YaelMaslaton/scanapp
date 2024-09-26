@@ -17,7 +17,7 @@ public class ScanService {
     private final ScanRepository scanRepository;
     private final ScanAppMapper scanAppMapper;
     private final ExecuteScanService executeScanService;
-    private final ValidationService validationService; // הוספת השירות החדש
+    private final ValidationService validationService;
 
 
     public void initiateScan(ScanDTO scanDTO) {
